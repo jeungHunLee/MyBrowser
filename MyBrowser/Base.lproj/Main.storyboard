@@ -47,57 +47,51 @@
                                 </items>
                             </toolbar>
                             <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qS9-z7-eHU">
-                                <rect key="frame" x="0.0" y="94" width="390" height="680"/>
+                                <rect key="frame" x="0.0" y="93" width="390" height="681"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <wkWebViewConfiguration key="configuration">
                                     <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
                                     <wkPreferences key="preferences"/>
                                 </wkWebViewConfiguration>
                             </wkWebView>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="O2c-Oa-gT8">
-                                <rect key="frame" x="39" y="52" width="267" height="34"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xj1-8p-prq">
+                                <rect key="frame" x="43" y="50" width="331" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D9j-ZC-bXy">
-                                <rect key="frame" x="323" y="53" width="57" height="32"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="57" id="wla-iy-rnI"/>
-                                </constraints>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray" title="GO"/>
                                 <connections>
-                                    <action selector="btnGoUrl:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Axd-gi-MvB"/>
+                                    <action selector="touchTxtUrl:" destination="BYZ-38-t0r" eventType="valueChanged" id="FjP-uG-WaI"/>
                                 </connections>
-                            </button>
+                            </textField>
                             <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="Oat-UQ-8rY">
-                                <rect key="frame" x="10" y="59" width="20" height="20"/>
+                                <rect key="frame" x="12" y="54" width="23" height="27"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="27" id="QjV-ji-TVN"/>
+                                    <constraint firstAttribute="width" constant="23" id="SvF-VI-rBe"/>
+                                </constraints>
                             </activityIndicatorView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="qS9-z7-eHU" firstAttribute="trailing" secondItem="WJa-fT-HLc" secondAttribute="trailing" id="0mm-vS-q6P"/>
-                            <constraint firstItem="O2c-Oa-gT8" firstAttribute="leading" secondItem="Oat-UQ-8rY" secondAttribute="trailing" constant="9" id="2Xl-sM-MEL"/>
-                            <constraint firstItem="qS9-z7-eHU" firstAttribute="leading" secondItem="WJa-fT-HLc" secondAttribute="leading" id="4rX-sE-o4X"/>
-                            <constraint firstAttribute="bottomMargin" secondItem="WJa-fT-HLc" secondAttribute="bottom" constant="-13" id="82V-0t-zWH"/>
-                            <constraint firstItem="WJa-fT-HLc" firstAttribute="top" secondItem="qS9-z7-eHU" secondAttribute="bottom" id="8sv-Hu-jsx"/>
-                            <constraint firstItem="qS9-z7-eHU" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="92T-L0-EDP"/>
-                            <constraint firstAttribute="trailing" secondItem="qS9-z7-eHU" secondAttribute="trailing" id="9KO-fG-3N8"/>
-                            <constraint firstItem="qS9-z7-eHU" firstAttribute="top" secondItem="O2c-Oa-gT8" secondAttribute="bottom" constant="8" symbolic="YES" id="Gj1-88-5cJ"/>
-                            <constraint firstItem="D9j-ZC-bXy" firstAttribute="leading" secondItem="O2c-Oa-gT8" secondAttribute="trailing" constant="17" id="MdS-ve-Zje"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="D9j-ZC-bXy" secondAttribute="trailing" constant="10" id="O0r-wl-sJ4"/>
-                            <constraint firstItem="D9j-ZC-bXy" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="9" id="QAG-bB-mNv"/>
-                            <constraint firstItem="Oat-UQ-8rY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="Xgi-1s-kRL"/>
-                            <constraint firstItem="O2c-Oa-gT8" firstAttribute="centerY" secondItem="D9j-ZC-bXy" secondAttribute="centerY" id="Z3j-UP-3Fk"/>
-                            <constraint firstItem="O2c-Oa-gT8" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="8" id="fMN-Zd-Su2"/>
-                            <constraint firstItem="Oat-UQ-8rY" firstAttribute="centerY" secondItem="O2c-Oa-gT8" secondAttribute="centerY" id="n9E-gT-VKr"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="WJa-fT-HLc" secondAttribute="bottom" constant="-13" id="2Js-0R-bU4"/>
+                            <constraint firstItem="Oat-UQ-8rY" firstAttribute="centerY" secondItem="xj1-8p-prq" secondAttribute="centerY" id="3gu-af-4qv"/>
+                            <constraint firstItem="xj1-8p-prq" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="9UA-h9-ESk"/>
+                            <constraint firstItem="qS9-z7-eHU" firstAttribute="leading" secondItem="WJa-fT-HLc" secondAttribute="leading" id="P3M-Mw-4rf"/>
+                            <constraint firstItem="qS9-z7-eHU" firstAttribute="trailing" secondItem="WJa-fT-HLc" secondAttribute="trailing" id="XKt-iM-9SR"/>
+                            <constraint firstItem="Oat-UQ-8rY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="12" id="cNg-lH-e5T"/>
+                            <constraint firstItem="xj1-8p-prq" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="6" id="ceX-0T-asc"/>
+                            <constraint firstItem="qS9-z7-eHU" firstAttribute="top" secondItem="xj1-8p-prq" secondAttribute="bottom" constant="8" symbolic="YES" id="eWQ-fy-zwB"/>
+                            <constraint firstAttribute="trailing" secondItem="qS9-z7-eHU" secondAttribute="trailing" id="omq-Jl-dRn"/>
+                            <constraint firstItem="Oat-UQ-8rY" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="qiY-fW-gdq"/>
+                            <constraint firstItem="WJa-fT-HLc" firstAttribute="top" secondItem="qS9-z7-eHU" secondAttribute="bottom" id="t8x-cN-ONz"/>
+                            <constraint firstItem="xj1-8p-prq" firstAttribute="leading" secondItem="Oat-UQ-8rY" secondAttribute="trailing" constant="8" symbolic="YES" id="vsH-tJ-b8p"/>
+                            <constraint firstItem="qS9-z7-eHU" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="xuc-fW-QsL"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="myActivityIndicator" destination="Oat-UQ-8rY" id="fGp-It-cBI"/>
+                        <outlet property="activityIndicator" destination="Oat-UQ-8rY" id="qcj-6h-BZo"/>
                         <outlet property="myWebView" destination="qS9-z7-eHU" id="Hxi-o8-vZQ"/>
-                        <outlet property="txtUrl" destination="O2c-Oa-gT8" id="rzt-bX-RZO"/>
+                        <outlet property="txtUrl" destination="xj1-8p-prq" id="jFy-z6-qjA"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

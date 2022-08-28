@@ -13,6 +13,7 @@
 		5C5514DA28936B4E005D3EB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C5514D828936B4E005D3EB7 /* Main.storyboard */; };
 		5C5514DC28936B4F005D3EB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C5514DB28936B4F005D3EB7 /* Assets.xcassets */; };
 		5C5514DF28936B4F005D3EB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C5514DD28936B4F005D3EB7 /* LaunchScreen.storyboard */; };
+		5CE49E6528B9EE67004ED9C4 /* loadFail.html in Resources */ = {isa = PBXBuildFile; fileRef = 5CE49E6428B9EE67004ED9C4 /* loadFail.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		5C5514DB28936B4F005D3EB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C5514DE28936B4F005D3EB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5C5514E028936B4F005D3EB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CE49E6428B9EE67004ED9C4 /* loadFail.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = loadFail.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				5C5514D428936B4E005D3EB7 /* SceneDelegate.swift */,
 				5C5514D628936B4E005D3EB7 /* ViewController.swift */,
 				5C5514D828936B4E005D3EB7 /* Main.storyboard */,
+				5CE49E6428B9EE67004ED9C4 /* loadFail.html */,
 				5C5514DB28936B4F005D3EB7 /* Assets.xcassets */,
 				5C5514DD28936B4F005D3EB7 /* LaunchScreen.storyboard */,
 				5C5514E028936B4F005D3EB7 /* Info.plist */,
@@ -125,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CE49E6528B9EE67004ED9C4 /* loadFail.html in Resources */,
 				5C5514DF28936B4F005D3EB7 /* LaunchScreen.storyboard in Resources */,
 				5C5514DC28936B4F005D3EB7 /* Assets.xcassets in Resources */,
 				5C5514DA28936B4E005D3EB7 /* Main.storyboard in Resources */,
@@ -300,8 +304,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.1.1;
-				PRODUCT_BUNDLE_IDENTIFIER = com.myCompany.MyBrowser;
+				MARKETING_VERSION = 0.2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myCompany.MyBrowserTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -329,8 +333,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.1.1;
-				PRODUCT_BUNDLE_IDENTIFIER = com.myCompany.MyBrowser;
+				MARKETING_VERSION = 0.2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myCompany.MyBrowserTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
