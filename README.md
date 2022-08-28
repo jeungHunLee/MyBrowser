@@ -12,7 +12,7 @@ iOS Web Browser
   bug fix
 
 - version 0.2.0 (beta)<br>
-    move to url button is replaced Go button on your keyboard<br>
+    move to url button is replaced "go" button on your keyboard<br>
     You can select all text above the text field by touching the text<br>
     Browser shows error page when your device is disconnected the internet<br>
     <img src="https://user-images.githubusercontent.com/103043741/187072499-4e066b69-e397-4f73-a3f4-175d19fccdce.PNG" width="200" height="400"/>
