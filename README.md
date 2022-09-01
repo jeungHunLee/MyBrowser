@@ -18,4 +18,5 @@ iOS Web Browser
     4. Browser shows error page when your device loses Internet connection<br>
     <img src="https://user-images.githubusercontent.com/103043741/187072499-4e066b69-e397-4f73-a3f4-175d19fccdce.PNG" width="200" height="400"/>
     <img src="https://user-images.githubusercontent.com/103043741/187072504-8e98c6c8-559f-43c3-8430-31618829743c.PNG" width="200" height="400"/>
+    <img src="https://user-images.githubusercontent.com/103043741/187806198-8ba89e8a-eebb-4337-ba2d-bdef20fbfe67.PNG" width="200" height="400"/>
     <img src="https://user-images.githubusercontent.com/103043741/187072507-03eac9dd-fdfb-42fd-9ed3-1cb66c4c2d72.PNG" width="200" height="400"/>
